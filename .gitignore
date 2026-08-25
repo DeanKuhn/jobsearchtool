@@ -26,5 +26,8 @@ top_jobs.md
 .DS_Store
 Thumbs.db
 
+# Run outputs
+runs/
+
 # Logs
 *.log
