@@ -82,6 +82,8 @@ def run():
                 hours_old=HOURS_OLD,
                 country_indeed="USA",
                 description_format="markdown",
+                # Glassdoor and LinkedIn only return descriptions with this on
+                fetch_description=True,
             )
         except Exception as e:
             print(f"  Failed ({e}); skipping this search.")
