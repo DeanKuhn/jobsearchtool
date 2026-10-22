@@ -31,3 +31,6 @@ runs/
 
 # Logs
 *.log
+
+# self-service vpn operator
+vpn_run_pipeline.sh
